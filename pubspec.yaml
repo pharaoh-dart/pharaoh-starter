@@ -1,0 +1,13 @@
+name: server
+description: pharaoh minimal starter project
+version: 1.0.0
+repository: https://github.com/Pharaoh-Framework/pharaoh
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  pharaoh: ^0.0.5
+
+dev_dependencies:
+  spookie: ^1.0.1
