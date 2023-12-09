@@ -3,11 +3,25 @@ description: pharaoh minimal starter project
 version: 1.0.0
 repository: https://github.com/Pharaoh-Framework/pharaoh
 
+publish_to: none
+
 environment:
   sdk: ^3.0.0
 
 dependencies:
-  pharaoh: ^0.0.5
+  pharaoh:
 
+dependency_overrides:
+  spanner:
+    git: 
+      url: git@github.com:Pharaoh-Framework/pharaoh.git
+      path: packages/spanner
+  pharaoh:
+    git: 
+      url: git@github.com:Pharaoh-Framework/pharaoh.git
+      path: packages/pharaoh
+  
 dev_dependencies:
   spookie: ^1.0.1
+  
+
