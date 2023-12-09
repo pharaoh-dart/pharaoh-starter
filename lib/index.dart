@@ -1,12 +1,6 @@
-import 'dart:async';
-import 'dart:isolate';
-
 import 'package:jinja/loaders.dart';
 import 'package:pharaoh/pharaoh.dart';
 import 'package:jinja/jinja.dart';
-
-var source = '''
-            <div>{{ lastname }}, {{ firstname }}</div>	 ''';
 
 Pharaoh createApp() {
   final app = Pharaoh();
